@@ -1,44 +1,10 @@
-# interprete
+# Interprete de BASIC en Clojure - Trabajo Práctico de Lenguajes Formales
+Este repositorio contiene un intérprete de BASIC implementado en el lenguaje de programación Clojure como parte del Trabajo Práctico de la asignatura Lenguajes Formales. Este intérprete permite escribir, analizar, y ejecutar programas escritos en BASIC en un entorno interactivo similar al del Commodore 64.
 
-FIXME: description
+## Características Principales
+* Interpretación de BASIC: El intérprete es capaz de analizar y ejecutar programas escritos en el lenguaje BASIC.
+* REPL (Read-Eval-Print Loop): Ofrece un entorno interactivo donde los usuarios pueden ingresar y ejecutar comandos BASIC línea por línea.
+* Análisis Léxico y Traducción: Convierte el código fuente BASIC en una representación intermedia antes de su ejecución.
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar interprete-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2023 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+# Uso
+Para utilizar el intérprete, simplemente ejecute el archivo interprete.core desde un entorno de desarrollo Clojure o desde la línea de comandos. Una vez iniciado, puede ingresar comandos BASIC directamente en el prompt.
