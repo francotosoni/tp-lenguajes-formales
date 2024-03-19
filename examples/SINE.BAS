@@ -1,0 +1,10 @@
+100 PRINT "X","SIN(X)"
+110 PRINT "---","------"
+120 FOR I = 1 TO 19 : PRINT " "; : NEXT I
+130 FOR A = 0 TO 8 * ATN(1) STEP 0.1
+140 PRINT "*"
+150 PRINT INT (A * 100) / 100, "   ";INT (SIN(A) * 100000) / 100000
+160 FOR I = 1 TO 20 + SIN(A) * 18 : PRINT " "; : NEXT I,A
+170 PRINT "*" : A = 8 * ATN(1)
+180 PRINT INT (A * 100) / 100, "   ";INT (SIN(A) * 100000) / 100000
+190 FOR I = 1 TO 19 : PRINT " "; : NEXT I : PRINT "*"
